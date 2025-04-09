@@ -32,7 +32,10 @@ const Nav = () =>{
                     name='Connect a Wallet'
                 />
             
-                <Button imageButton={user}/>
+                <Button 
+                    imageButton={user}
+                    text="Sign Up"
+                />
            </ul>
         </nav>
     )

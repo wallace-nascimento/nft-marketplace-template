@@ -7,13 +7,21 @@
     font-display: swap;
 }
 
+@font-face{
+    font-family: "Mono Space";
+    src: url("./fonts/monoSpace/SpaceMono-Regular.ttf") format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
+
 @theme{
     --color-background: #2B2B2B;
-    --color-background-secundary: ;
+    --color-background-secundary: #3B3B3B;
     --color-Text: #FFFFFF;
     --color-callToAction: #A259FF;
 
     --font-display: "Work Sans", "sans-serif";
+    --font-monoSpace: "Mono Space", "sans-serif";
 
     --font-weight-semiBold: 100;
 }
