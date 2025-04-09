@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face{
+    font-family: "Work Sans";
+    src: url("./fonts/work/WorkSans-VariableFont_wght.ttf") format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme{
+    --color-background: #2B2B2B;
+    --color-background-secundary: ;
+    --color-Text: #FFFFFF;
+    --color-callToAction: #A259FF;
+
+    --font-display: "Work Sans", "sans-serif";
+
+    --font-weight-semiBold: 100;
+}
