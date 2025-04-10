@@ -9,7 +9,7 @@ const Card = ({ primary, secondary, third, avatar, title, titleAvatar }) =>{
     return(
         
             <div className="w-[21rem] flex pb-16">
-                <div className="pr-6">
+                <div>
                     <div>
                         <div>
                             <img src={primary} alt="Card" />

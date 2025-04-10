@@ -16,9 +16,10 @@
 
 @theme{
     --color-background: #2B2B2B;
-    --color-background-secundary: #3B3B3B;
+    --color-backgroundSecundary: #3B3B3B;
     --color-Text: #FFFFFF;
     --color-callToAction: #A259FF;
+    --color-label: #858584;
 
     --font-display: "Work Sans", "sans-serif";
     --font-monoSpace: "Mono Space", "sans-serif";

@@ -1,15 +1,16 @@
 import Card from "./Card";
-import { data } from "../image.js";
+import { data } from "../data/image.js";
+import Section from "./Section.jsx";
 
 const SectionTrending = () =>{
 
     return(
-        <section className="w-[65.6rem] mr-auto ml-auto pt-16 text-Text">
+        <Section >
             <div className="font-display pb-10">
                 <h2 className="text-[2.5rem] font-semibold">Trending Collection</h2>
                 <p className="text-[1.4rem] ">Checkout our weekly updated trending collection.</p>
             </div>
-            <div className="flex ">
+            <div className="flex justify-between">
                 {
                     data.map((image)=>{
                         return <Card
@@ -28,7 +29,7 @@ const SectionTrending = () =>{
             
 
 
-        </section>
+        </Section>
     )
 } 
 export default SectionTrending;

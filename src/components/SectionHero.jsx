@@ -3,10 +3,11 @@ import Button from './Button';
 import image from '../assets/background-image.svg';
 import avatar from '../assets/avatar.svg';
 import launch from '../assets/launch.svg';
+import Section from './Section';
 
 const SectionHero = () =>{
     return(
-        <section className='w-[65.6rem] font-display pt-16 pb-16 mr-auto ml-auto'>
+        <Section >
                 <div className='flex justify-between'>
                     <div className='w-[540px] '> 
                         <div >
@@ -52,7 +53,7 @@ const SectionHero = () =>{
 
                     </div>
                 </div>
-            </section>
+            </Section>
     )
 }
 
