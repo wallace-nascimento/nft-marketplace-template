@@ -9,7 +9,7 @@ const Home = () =>{
             
             <SectionHero/>
             <SectionTrending/>
-
+            
         </main>
 
     )
