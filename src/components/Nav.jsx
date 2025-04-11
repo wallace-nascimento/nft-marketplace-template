@@ -15,27 +15,35 @@ const Nav = () =>{
             <img src={logo02} alt="Logo" className='ml-3'/>
             
            </div>
-           <ul className='flex items-center font-display font-semibold text-Text text-center text-1g'>
+           <ul className='flex items-center font-display font-semibold text-Text text-center text-1g '>
 
-                <Router 
-                    to=''
-                    name='Marketplace'
-                />
+                <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
+                    <Router
+                        to=''
+                        name='Marketplace'
+                    />
+                </li>
 
-                <Router 
-                    to=''
-                    name='Rankings'
-                />
+                <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
+                    <Router
+                        to=''
+                        name='Rankings'
+                    />
+                </li>
 
-                <Router 
-                    to=''
-                    name='Connect a Wallet'
-                />
+                <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
+                    <Router
+                        to=''
+                        name='Connect a Wallet'
+                    />
+                </li>
             
-                <Button 
-                    imageButton={user}
-                    text="Sign Up"
-                />
+                <li className="ml-2">
+                    <Button
+                        imageButton={user}
+                        text="Sign Up"
+                    />
+                </li>
            </ul>
         </nav>
     )

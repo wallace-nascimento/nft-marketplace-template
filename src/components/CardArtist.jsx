@@ -18,7 +18,7 @@ const Card = ({ id, image, name, price }) =>{
             </div>
             <div className="text-center pt-4">
                 <div className="text-[1.3rem] pb-2">
-                    <p>{name}</p>
+                    <p className="hover:text-label cursor-pointer delay-150">{name}</p>
                 </div>
                 <div className="flex pb-4 items-center justify-center">
                     <p className="text-[.8rem] mr-2 text-label " >Total Sales: </p > <p className="text-[.9rem] font-monoSpace">{price} ETH</p>

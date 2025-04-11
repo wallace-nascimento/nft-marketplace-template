@@ -6,11 +6,11 @@ const SectionTrending = () =>{
 
     return(
         <Section >
-            <div className="font-display pb-10">
-                <h2 className="text-[2.5rem] font-semibold">Trending Collection</h2>
+            <div className="font-display pb-10 ease-in">
+                <h2 className="text-[2.5rem] font-semibold ">Trending Collection</h2>
                 <p className="text-[1.4rem] ">Checkout our weekly updated trending collection.</p>
             </div>
-            <div className="flex justify-between">
+            <div className="flex justify-between transition ">
                 {
                     data.map((image)=>{
                         return <Card
@@ -26,9 +26,6 @@ const SectionTrending = () =>{
                     })
                 }
             </div>
-            
-
-
         </Section>
     )
 } 

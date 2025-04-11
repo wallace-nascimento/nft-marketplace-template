@@ -8,14 +8,14 @@ const Card = ({ primary, secondary, third, avatar, title, titleAvatar }) =>{
 
     return(
         
-            <div className="w-[21rem] flex pb-16">
+            <div className="w-[21rem] flex pb-16 ">
                 <div>
                     <div>
                         <div>
                             <img src={primary} alt="Card" />
                         </div>
-                        <div className="flex justify-between pt-2 pb-4 cursor-pointer">
-                            <img src={secondary} alt="Card" />
+                        <div className="flex justify-between pt-2 pb-4 cursor-pointer ">
+                            <img src={secondary} alt="Card" className=""/>
                             <img src={third} alt="Card" />
                             <div className="w-[100px] h-[100px] bg-callToAction rounded-[20px] flex items-center justify-center font-monoSpace text-[1.3rem]">
                                 <p>1025+</p>
