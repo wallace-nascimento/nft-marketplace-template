@@ -7,7 +7,7 @@ const Button = ({ imageButton, text, variant = "secondary" }) =>{
             hover:bg-bgHover hover:rounded-2xl delay-300  ${
             variant === 'secondary'
             ? 'bg-callToAction'
-            : 'bg-background w-[15.4rem] border-1 border-callToAction font-semibold hover:rounded-2xl'
+            : 'bg-background pl-12 pr-12 border-1 border-callToAction font-semibold hover:rounded-2xl'
         }`}>
             <div className="mr-2">
                 <img src={imageButton} alt="imageButton" />

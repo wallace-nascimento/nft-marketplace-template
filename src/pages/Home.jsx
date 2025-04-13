@@ -2,6 +2,7 @@ import SectionHero from "../components/SectionHero";
 import SectionTrending from "../components/SectionTrending";
 import SectionArtist from "../components/SectionArtist";
 import SectionCollection from "../components/SectionCollection";
+import SectionDiscover from "../components/SectionDiscover";
 
 
 const Home = () =>{
@@ -13,6 +14,7 @@ const Home = () =>{
             <SectionTrending/>
             <SectionArtist />
             <SectionCollection/>
+            <SectionDiscover />
         </main>
 
     )
