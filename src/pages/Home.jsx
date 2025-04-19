@@ -5,6 +5,7 @@ import SectionCollection from "../components/SectionCollection";
 import SectionDiscover from "../components/SectionDiscover";
 import SectionHighlight from "../components/SectionHighlight";
 import SectionWork from "../components/SectionWork";
+import Footer from "../components/Footer";
 
 
 const Home = () =>{
@@ -19,6 +20,7 @@ const Home = () =>{
             <SectionDiscover />
             <SectionHighlight/>
             <SectionWork/>
+            <Footer/>
         </main>
 
     )

@@ -4,6 +4,7 @@ import Section from './Section';
 
 import astronauta from '../assets/astronauta.png';
 import email from '../assets/email.png';
+import Input from './Input.jsx';
 
 const SectionWork = () =>{
 
@@ -50,14 +51,7 @@ const SectionWork = () =>{
                         <div className='text-[1.2rem] pt-[10px] pb-[40px]'>
                             <p>Get exclusive promotions & updates <br></br>straight to your inbox.</p>
                         </div>
-                        <div className='flex items-center'>
-                            <div className=' bg-white rounded-[15px] text-background p-[18px] relative'>
-                                <input type='email' placeholder='Enter your email here' className='outline-none rounded-[15px]'/>
-                            </div>
-                            <div className='bg-callToAction pt-[18px] pb-[18px] pr-[3.125rem] pl-[3.125rem] rounded-[15px] absolute right-60'>
-                                <span className='flex'> <img src={email} alt='email' className='pr-2'/> Subscribe</span> 
-                            </div>
-                        </div>
+                       <Input/>
                    </div>
 
             </div>
