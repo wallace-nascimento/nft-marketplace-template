@@ -12,7 +12,7 @@ import {
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter >
     <MainRoutes />
   </BrowserRouter>,
 )

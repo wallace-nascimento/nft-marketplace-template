@@ -2,7 +2,7 @@
 const Section = ({ children, variant = "secondary" }) =>{
 
     return(
-        <section className={`w-[65.625rem] mr-auto ml-auto pt-16 pb-16 text-Text ${
+        <section className={`max-w-[64rem] w-full bg-background mr-auto ml-auto text-Text ${
             variant === 'secondary'
             ? 'pt-16'
             : 'pt-[0px]'

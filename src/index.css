@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+body{
+    margin: 0;
+    background-color: red;
+}
+
 @font-face{
     font-family: "Work Sans";
     src: url("./fonts/work/WorkSans-VariableFont_wght.ttf") format('opentype');
@@ -27,6 +32,7 @@
 
     --font-display: "Work Sans", "sans-serif";
     --font-monoSpace: "Mono Space", "sans-serif";
-
     --font-weight-semiBold: 100;
+
+    --breakpoint-xx: 54.375rem;
 }

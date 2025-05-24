@@ -3,7 +3,7 @@
 const Card = ({ name, image }) =>{
 
     return(
-        <div className="w-[15rem] mt-8">
+        <div className="w-[9rem] sm:w-[15rem] mt-8">
             <div className="cursor-pointer">
                 <img src={image} alt="Image Collection" />
             </div>

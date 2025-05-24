@@ -8,7 +8,7 @@ const Card = ({ primary, secondary, third, avatar, title, titleAvatar }) =>{
 
     return(
         
-            <div className="w-[21rem] flex pb-16 ">
+            <div className="w-[21rem] flex pb-2">
                 <div>
                     <div>
                         <div>

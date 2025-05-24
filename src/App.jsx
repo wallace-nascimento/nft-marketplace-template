@@ -6,7 +6,7 @@ import { useState } from "react";
 function App() {
 
   return (
-    <main>
+    <main className="bg-background ">
       <Nav/>
       <Home/>
       

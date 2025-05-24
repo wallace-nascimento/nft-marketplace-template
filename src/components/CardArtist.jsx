@@ -3,16 +3,16 @@ import animakid from "../assets/artist/animakid.png";
 const Card = ({ id, image, name, price }) =>{
 
     return(
-        <div className="w-[14rem] bg-backgroundSecundary rounded-[20px] mt-12 ">
-            <div className="flex pt-6 relative">
+        <div className="w-full w-[315px]  md:w-[20rem] flex lg:flex-col lg:w-[14rem] items-center justify-center bg-backgroundSecundary rounded-[20px] mt-12  mr-[30px] ml-[30px] lg:mr-0 lg:ml-0">
+            <div className="relative flex mr-4 sm:pt-4">
 
-                <div className="bg-background text-center rounded-full absolute left-4 font-monoSpace">
+                <div className="bg-background text-center rounded-full absolute left-2 sm:left-2 sm:top-5 font-monoSpace">
 
-                    <p className="w-[30px] h-[30px] text-label text-[.9rem] relative top-1">{id}</p>
+                    <p className="w-[15px] h-[15px] sm:w-[30px] sm:h-[30px] text-label text-[.6rem] sm:text-[.9rem] relative top-0 sm:top-1">{id}</p>
 
                 </div>
 
-                <div className="mr-auto ml-auto">
+                <div className="w-[60px] sm:w-full mr-auto ml-auto">
                     <img src={image} alt='Image Artist' />
                 </div>
             </div>

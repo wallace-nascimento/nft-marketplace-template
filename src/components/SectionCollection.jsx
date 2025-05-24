@@ -7,11 +7,14 @@ const SectionCollection = () =>{
 
     return(
         <Section>
-            <div className="text-[2.5rem] font-semibold">
+
+        <div className='pl-6 pr-6 lg:pl-0 lg:pr-0'>
+
+            <div className="text-[2rem] sm:text-[2.5rem] font-semibold">
                 <h2> Browse Categories </h2>
             </div>
 
-            <div className='flex flex-wrap justify-between ease-in'>
+            <div className='flex flex-wrap  justify-around ease-in'>
                 {
                     data.map((collection)=>{
                         return <Card
@@ -23,6 +26,8 @@ const SectionCollection = () =>{
                     })
                 }
             </div>
+
+        </div>    
         </Section>
     )
 }

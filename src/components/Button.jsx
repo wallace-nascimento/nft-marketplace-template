@@ -1,6 +1,6 @@
 import user from "../assets/user.svg";
 
-const Button = ({ imageButton, text, variant = "secondary", isColor = false }) =>{
+const Button = ({ imageButton, text, onclick, variant = "secondary", isColor = false }) =>{
 
     return(
         <div className={`font-display h-[3.75rem] pr-6 pl-6 flex items-center justify-center rounded-[20px] cursor-pointer 
@@ -16,6 +16,7 @@ const Button = ({ imageButton, text, variant = "secondary", isColor = false }) =
             </div>
             <buton>
                 {text}
+                {onclick}
             </buton>
         </div>
     )

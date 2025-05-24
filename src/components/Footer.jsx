@@ -1,4 +1,5 @@
 import Input from './Input.jsx';
+import Section from './Section.jsx';
 
 import logoFooter from '../assets/logoFooter.png';
 import discordLogo from '../assets/discordLogo.png';
@@ -10,10 +11,10 @@ import divider from '../assets/divider.png';
 const Footer = () =>{
 
     return(
-        <footer className='bg-backgroundSecundary font-display '>
-            <div className=' w-[61.6875rem] ml-auto mr-auto flex pt-[3rem]'>
-                <div className='text-text2'>
-                    <div className='pb-6'>
+        <footer className='bg-backgroundSecundary font-display mt-16'>
+            <div className='w-max-[61.6875rem] flex pl-[30px] pr-[30px] flex-col xx:flex-row pt-[3rem] justify-around'>
+                <div className='text-text2 xx:pr-[20px]'>
+                    <div className='pb-6 min-w-[220px]'>
                         <img src={logoFooter} alt='logo' />
                     </div>
 
@@ -37,8 +38,8 @@ const Footer = () =>{
                     </div>
                 </div>
 
-                <div className='ml-[5.25rem] pr-[9.0625rem]'>
-                    <div className='text-[1.5rem] font-monoSpace font-semibold pb-6'>
+                <div className=' text-Text xx:pr-[20px]'>
+                    <div className='text-[1.3rem] font-monoSpace font-semibold pb-6'>
                         <h3>Explore</h3>
                     </div>
                     <div className='text-text2 text-[.9rem] '>
@@ -54,27 +55,29 @@ const Footer = () =>{
                     </div>
                 </div>
 
-                <div className=''>
+                <div>
 
-                    <div className='text-[1.5rem] font-monoSpace font-semibold pb-6'>
+                    <div className='text-[1.3rem] font-monoSpace font-semibold pb-6 text-Text'>
                         <h3>Join our weekly digest</h3>
                     </div>
 
-                    <div className='w-[29rem]'>
+                    <div className='md:min-w-[29rem] flex flex-col'>
                         <div className='text-text2 text-[.9rem] mb-[20px]'>
                             <p>Get exclusive promotions & updates <br></br>straight to your inbox.</p>
-                        </div>
-                        <div>
-                            <Input />
                         </div>
 
                     </div>
 
+                     <div className='max-w-[500px] xx:w-full '>
+                        <Input />
+                    </div>
                 </div>
+
+               
             </div>
 
-            <div className='w-[65.5625rem] mt-[2rem] ml-auto mr-auto'>
-                <img src={divider} alt='divider'/>
+            <div className='max-w-[65rem] mt-[2rem] ml-auto mr-auto border-t border-text2'>
+                
                 <div className='text-text2 text-[.7rem] mt-[1rem] pb-[1rem]'>
                     <p>Ⓒ NFT Market. Use this template freely.</p>
                 </div>

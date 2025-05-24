@@ -2,7 +2,7 @@
 const Card = ({ image, title, imageAvatar, name, price, highest }) =>{
 
     return(
-        <div className='w-[21rem] pt-12'>
+        <div className='w-[21rem] pt-12 pr-4'>
             <div>
                 <img src={image} alt="Image Dicover" />
             </div>

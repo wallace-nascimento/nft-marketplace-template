@@ -7,12 +7,13 @@ import SectionHighlight from "../components/SectionHighlight";
 import SectionWork from "../components/SectionWork";
 import Footer from "../components/Footer";
 
+import Section from '../components/Section';
+
 
 const Home = () =>{
 
     return(
-        <main className='w-full text-Text bg-background'>
-            
+        < div >
             <SectionHero/>
             <SectionTrending/>
             <SectionArtist />
@@ -21,7 +22,7 @@ const Home = () =>{
             <SectionHighlight/>
             <SectionWork/>
             <Footer/>
-        </main>
+        </ div>
 
     )
     
