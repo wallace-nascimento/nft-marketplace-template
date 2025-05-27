@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 import Button from "./Button";
 import Router from "./Router";
@@ -12,7 +13,7 @@ import menuImg from "../assets/burgermenu.png";
 
 const Nav = () =>{
 
-    const [menu, setMenu] = useState(false);
+    const [menu, setMenu] = useState(true);
 
     let menuRef = useRef();
 
@@ -29,9 +30,11 @@ const Nav = () =>{
     return(
         <nav className="w-full  h-[100px] flex items-center justify-between pl-8 pr-8 bg-background ">
            <div className='w-[200px] flex items-center '>
-
-                <img src={logo} alt="Logo" />
+                
+               
+                <img src={logo} alt="Logo" /> 
                 <img src={logo02} alt="Logo" className='ml-3'/>
+               
             
            </div>
 
@@ -55,7 +58,7 @@ const Nav = () =>{
 
                 <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
                     <Router
-                        to=''
+                        to='/nftPage'
                         name='Marketplace'
                     />
                 </li>

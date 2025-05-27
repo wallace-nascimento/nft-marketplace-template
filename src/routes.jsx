@@ -4,10 +4,12 @@ import NftPages from "./pages/NftPages";
 
 const MainRoutes = () =>{
     return(
+
         <Routes>
-            <Route path="/" element={<App/>} />
+            <Route path="/nft-marketplace-template" element={<App/>} />
             <Route path="/nftPage" element={<NftPages/>} />
         </Routes>
+       
     )
 }
 

@@ -6,7 +6,7 @@ import App from './App.jsx'
 import MainRoutes from './routes.jsx';
 import {
   BrowserRouter,
-  RouterProvider,
+  RouterProvider
 } from "react-router";
 
 
