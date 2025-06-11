@@ -35,4 +35,5 @@ body{
     --font-weight-semiBold: 100;
 
     --breakpoint-xx: 54.375rem;
+    --breakpoint-ml: 50rem;
 }

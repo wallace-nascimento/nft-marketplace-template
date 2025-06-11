@@ -72,7 +72,7 @@ const Nav = () =>{
 
                 <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
                     <Router
-                        to=''
+                        to='/connect'
                         name='Connect a Wallet'
                     />
                 </li>
@@ -109,7 +109,7 @@ const Nav = () =>{
 
                     <li className="text-center hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
                         <Router
-                            to=''
+                            to='/connect'
                             name='Connect a Wallet'
                         />
                     </li>

@@ -7,7 +7,6 @@ function App() {
     <main className="bg-background ">
       <Nav/>
       <Home/>
-      
     </main>
   )
 }
