@@ -1,16 +1,20 @@
 
-const Card = ({ image, title, imageAvatar, name, price, highest }) =>{
+const Card = ({ image, title, imageAvatar, name, price, highest, variant }) =>{
 
     return(
-        <div className='w-[21rem] pt-12 pr-4'>
+        <div className='pt-12 md:pr-4'>
             <div>
                 <img src={image} alt="Image Dicover" />
             </div>
 
-             <div className='bg-backgroundSecundary rounded-b-[20px]'>
+             <div className={`bg-background2 rounded-b-[20px] ${
+                variant === 'secundary'
+                ? 'w-[20.6rem]'
+                : 'w-[]'
+             }`}>
     
                 <div className='pl-[1.875rem] pt-[1.25rem]'>
-                    <div className='text-[1.3rem] mb-[5px]'>
+                    <div className='mm:text-[1.3rem] mb-[5px]'>
                         <p>{ title }</p>
                     </div>
                     <div className='flex items-center cursor-pointer'>

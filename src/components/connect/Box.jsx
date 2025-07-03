@@ -1,6 +1,6 @@
 
 
-const Box = ({ image, text }) =>{
+const Box = ({ image, text, id }) =>{
 
 	return(
 		<div className='w-[20rem] flex items-center border border-callToAction rounded-[20px] text-Text font-display font-bold text-[1.2rem] mb-[20px]'>
@@ -10,7 +10,7 @@ const Box = ({ image, text }) =>{
 			</div>
 
 			<div>
-				<p>{text} </p>
+				<p>{text} {id}</p>
 			</div>
 
 		</div>

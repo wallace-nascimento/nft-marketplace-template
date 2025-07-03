@@ -31,7 +31,7 @@ const SectionDiscover = () =>{
 
             </div>
 
-            <div className='flex flex-wrap justify-around'>
+            <div className='flex flex-wrap lg:flex-nowrap justify-around'>
                {
                 data.map((discover)=>{
                     return  <Card

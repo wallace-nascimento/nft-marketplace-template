@@ -11,7 +11,7 @@ import divider from '../assets/divider.png';
 const Footer = () =>{
 
     return(
-        <footer className='bg-backgroundSecundary font-display mt-16'>
+        <footer className='bg-backgroundSecundary font-display border border-background '>
             <div className='w-max-[61.6875rem] flex pl-[30px] pr-[30px] flex-col xx:flex-row pt-[3rem] justify-around'>
                 <div className='text-text2 xx:pr-[20px]'>
                     <div className='pb-6 min-w-[220px]'>

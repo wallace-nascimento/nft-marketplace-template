@@ -58,8 +58,15 @@ const Nav = () =>{
 
                 <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
                     <Router
-                        to='/nftPage'
+                        to='/nft-marketplace-template'
                         name='Marketplace'
+                    />
+                </li>
+
+                <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
+                    <Router
+                        to='/profile'
+                        name='Profile'
                     />
                 </li>
 

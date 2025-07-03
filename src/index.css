@@ -22,6 +22,7 @@ body{
 @theme{
     --color-background: #2B2B2B;
     --color-backgroundSecundary: #3B3B3B;
+    --color-background2: #333331;
     --color-Text: #FFFFFF;
     --color-Textsecun: #858584;
     --color-callToAction: #A259FF;
@@ -35,5 +36,7 @@ body{
     --font-weight-semiBold: 100;
 
     --breakpoint-xx: 54.375rem;
-    --breakpoint-ml: 50rem;
+    --breakpoint-ml: 50.875rem;
+     --breakpoint-mlx: 56.3125rem;
+    --breakpoint-mm: 23.5rem;
 }

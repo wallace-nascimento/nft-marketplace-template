@@ -10,7 +10,7 @@ const SectionWork = () =>{
 
     return(
         <Section >
-            <div className='pr-10 pl-12 lg:pr-0 lg:pl-0'>
+            <div className='pr-10 pl-12 pb-16 lg:pr-0 lg:pl-0'>
             <div className='mb-[80px]'>
                 <div className='font-display mb-[48px]'>
                     <div className="text-[2rem] md:text-[2.5rem] font-semibold ">
