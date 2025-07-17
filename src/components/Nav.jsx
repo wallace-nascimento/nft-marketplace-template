@@ -83,13 +83,13 @@ const Nav = () =>{
                         name='Connect a Wallet'
                     />
                 </li>
-            
-                <li className="ml-2">
-                    <Button
+
+                <Link className="ml-2" to='/singup' >
+                     <Button
                         imageButton={user}
                         text="Sign Up"
                     />
-                </li>
+                </Link>
            </ul>
 
            {/*Nav Mobile*/}
