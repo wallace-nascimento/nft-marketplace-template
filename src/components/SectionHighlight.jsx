@@ -28,8 +28,8 @@ const SectionHighlight = () =>{
                             </div>
 
                             <div className=' sm:absolute right-0 top-10 '>
-                            <img src={time} alt='Image Time' />
-                        </div>
+                                <img src={time} alt='Image Time' />
+                            </div>
                               
                         </div>
 

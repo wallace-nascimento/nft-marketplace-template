@@ -72,6 +72,14 @@ const Nav = () =>{
 
                 <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
                     <Router
+                        to='/info'
+                        name='Artist Info'
+                    />
+                </li>
+
+
+                <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
+                    <Router
                         to=''
                         name='Rankings'
                     />

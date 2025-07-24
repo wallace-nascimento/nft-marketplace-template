@@ -7,7 +7,7 @@ const Button = ({ imageButton, text, onclick, variant = "secondary", isColor = f
             hover:bg-bgHover hover:rounded-2xl delay-300 font-semibold  ${
             variant === 'secondary'
             ? 'bg-callToAction'
-            : 'bg-background pl-12 pr-12 border-1 border-callToAction font-semibold hover:rounded-2xl'
+            : 'bg-background pl-12 pr-12 border-1 border-callToAction font-semibold hover:rounded-2xl text-Text'
         }
             ${isColor && 'bg-white text-black hover:bg-gray-300'}
         `}>
