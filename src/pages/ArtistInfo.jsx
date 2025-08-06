@@ -86,22 +86,23 @@ const ArtistInfo = () =>{
 								Tags
 							</p>
 
-							<div className='flex flex-col text-Text font-display text-[16px]'>
-								<div className='bg-backgroundSecundary pt-[12px] pb-[12px] pl-[30px] pr-[30px] rounded-[20px] mr-[20px]'>
+							<div className='flex flex-col xl:flex-row text-Text font-display text-[16px]'>
+								<div className='w-max bg-backgroundSecundary mb-[10px] pt-[12px] pb-[12px] pl-[30px] pr-[30px] rounded-[20px] mr-[20px]'>
 									<p>ANIMATION</p>
 								</div>
 
-								<div className='bg-backgroundSecundary pt-[12px] pb-[12px] pl-[30px] pr-[30px] rounded-[20px] mr-[20px]'>
+								<div className='w-max bg-backgroundSecundary mb-[10px] pt-[12px] pb-[12px] pl-[30px] pr-[30px] rounded-[20px] mr-[20px]'>
 									<p>ILLUSTRATION</p>
 								</div>
 
-								<div className='bg-backgroundSecundary pt-[12px] pb-[12px] pl-[30px] pr-[30px] rounded-[20px] mr-[20px]'>
+								<div className='w-max bg-backgroundSecundary mb-[10px] pt-[12px] pb-[12px] pl-[30px] pr-[30px] rounded-[20px] mr-[20px]'>
 									<p>MOON</p>
 								</div>
 
-								<div className='bg-backgroundSecundary pt-[12px] pb-[12px] pl-[30px] pr-[30px] rounded-[20px]'>
+								<div className='w-max bg-backgroundSecundary mb-[10px] pt-[12px] pb-[12px] pl-[30px] pr-[30px] rounded-[20px] mr-[20px]'>
 									<p>MOON</p>
 								</div>
+
 							</div>
 						</div>
 
@@ -110,7 +111,8 @@ const ArtistInfo = () =>{
 
 				</div>
 
-				<div className='w-[295px] h-[237px] bg-backgroundSecundary mt-[40px] pt-[30px] pr-[30px] pl-[30px] rounded-[20px] order-1 md:order-2 '>
+				<div className='w-max mr-auto ml-auto order-1 md:order-2 md:pl-[0] mlx:ml-[115px] md:mr-[115px]'>
+					<div className='w-[295px] h-[237px] bg-backgroundSecundary mt-[40px] pt-[30px] pr-[30px] pl-[30px] rounded-[20px]  '>
 					
 					<div className=' text-monoSpace text-Text text-[.7rem] ' >
 						<p>Auction ends in:</p>
@@ -135,19 +137,20 @@ const ArtistInfo = () =>{
 					</div>
 
 				</div>
+				</div>
 
 			</div>
 
-			<div className='pl-[115px] pt-[80px]'>
+			<div className='mr-auto ml-auto pl-[30px] pr-[30px] lg:pl-[115px] lg:pr-[115px] pt-[80px]'>
 
-			    <div className='flex justify-between'>
+			    <div className='w-max md:w-[100%] flex justify-between mr-auto ml-auto'>
 			   	 	<div className='text-Text text-[2rem] font-display font-semibold'>
 						
 						<h2>More from this artist</h2>
 			    	
 			    	</div>
 
-			    	<div className='mr-[115px]'>
+			    	<div className=' hidden md:block'>
 			    		<Button2
 			    			variant='seconday'
 			    			text='Go To Artist Page'
@@ -157,22 +160,24 @@ const ArtistInfo = () =>{
 			    	</div>	
 			    </div>
 
-			    <div className='flex flex-wrap justify-between text-Text font-display font-semibold pb-[80px] pr-[115px]'>
+			    <div className='text-Text font-display font-semibold pb-[80px] pr-[25px] pl-[25px] '>
 			    	
-			    	{
-			    		data.map((artistInfo) =>{
-			    			return <Card
-			    				key={artistInfo.id}
-			    				name={artistInfo.name}
-			    				title={artistInfo.title}
-			    				image={artistInfo.image}
-			    				imageAvatar={artistInfo.imageAvatar}
-			    				price={artistInfo.price}
-			    				highest={artistInfo.highest}
+			    	<div className='flex flex-wrap justify-between justify-center '>
+			    		{
+				    		data.map((artistInfo) =>{
+				    			return <Card
+				    				key={artistInfo.id}
+				    				name={artistInfo.name}
+				    				title={artistInfo.title}
+				    				image={artistInfo.image}
+				    				imageAvatar={artistInfo.imageAvatar}
+				    				price={artistInfo.price}
+				    				highest={artistInfo.highest}
 
-			    			/>
-			    		})
-			    	}
+				    			/>
+				    		})
+			    		}
+			    	</div>
 
 
 			    </div>
