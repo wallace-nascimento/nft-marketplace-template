@@ -85,6 +85,13 @@ const Nav = () =>{
                     />
                 </li>
 
+                 <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
+                    <Router
+                        to='/marketplace'
+                        name='Marketplace'
+                    />
+                </li>
+
                 <li className="hover:bg-bgHover hover:rounded-md delay-300 cursor-pointer">
                     <Router
                         to='/connect'

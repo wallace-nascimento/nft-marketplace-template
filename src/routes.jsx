@@ -5,6 +5,7 @@ import Connect from "./pages/Connect.jsx";
 import Profile from "./pages/Profile.jsx";
 import SingUp from "./pages/SingUp.jsx";
 import ArtistInfo from "./pages/ArtistInfo.jsx";
+import Marketplace from "./pages/Marketplace.jsx";
 
 const MainRoutes = () =>{
     return(
@@ -15,6 +16,7 @@ const MainRoutes = () =>{
             <Route path="/profile" element={<Profile/>} />
             <Route path="/singup" element={<SingUp/>} />
             <Route path="/Info" element={<ArtistInfo/>} />
+            <Route path="/marketplace" element={<Marketplace/>} />
         </Routes>
        
     )
